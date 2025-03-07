@@ -24,11 +24,17 @@ public class HomePage
 	private WebElement logout;
 	@FindBy (linkText = "Organizations")
 	private WebElement org;
-	
+	@FindBy (linkText = "Contacts")
+	private WebElement contact;
 
 	public void orgClick()
 	{
 		org.click();
+	}
+	
+	public void contact()
+	{
+		contact.click();
 	}
 	public void logout()
 	{
