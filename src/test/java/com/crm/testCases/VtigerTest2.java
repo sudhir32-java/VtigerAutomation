@@ -26,8 +26,7 @@ public class VtigerTest2 extends VTigerBase
 		
 		LocalDate startDate = RandomDateGenerator.getStartDate();
 		ct.startDate(startDate.toString());
-		System.out.println(startDate.toString());
-		Thread.sleep(1000);
+		
 		
 		LocalDate endDate = RandomDateGenerator.getEndDate();
 		ct.endDate(endDate.toString());
