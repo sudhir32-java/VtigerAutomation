@@ -5,13 +5,14 @@ import static org.testng.Assert.assertTrue;
 import java.time.LocalDate;
 
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.base.VTigerBase;
 import com.crm.javautility.RandomDateGenerator;
 import com.crm.pom.ContactPage;
 import com.crm.pom.HomePage;
-
+@Listeners (com.crm.listeners.ExtentReport.class)
 public class VtigerTest2 extends VTigerBase
 {
 	@Test

@@ -34,7 +34,7 @@ public class ExtentReport extends VTigerBase implements ITestListener
 	public void onTestSuccess(ITestResult result) 
 	{
 		String name = result.getMethod().getMethodName();
-		test = report.createTest(name);
+		
 		test.log(Status.PASS, name + "has succeded");
 	}
 
@@ -42,7 +42,7 @@ public class ExtentReport extends VTigerBase implements ITestListener
 	public void onTestFailure(ITestResult result) 
 	{
 		String name = result.getMethod().getMethodName();
-		test = report.createTest(name);
+		
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		String from = ts.getScreenshotAs(OutputType.BASE64);
 		test.addScreenCaptureFromBase64String(from);
@@ -56,7 +56,7 @@ public class ExtentReport extends VTigerBase implements ITestListener
 	public void onTestSkipped(ITestResult result) 
 	{
 		String name = result.getMethod().getMethodName();
-		test = report.createTest(name);
+		
 		test.log(Status.SKIP, name + "has Skipped");
 	}
 
