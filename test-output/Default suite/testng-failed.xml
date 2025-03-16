@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.testCases.VtigerTest2">
+      <class name="com.crm.testCases.VTigerTest3">
         <methods>
           <include name="login"/>
           <include name="logout"/>
           <include name="preCondition"/>
-          <include name="postCondition"/>
           <include name="tc001"/>
+          <include name="postCondition"/>
         </methods>
-      </class> <!-- com.crm.testCases.VtigerTest2 -->
+      </class> <!-- com.crm.testCases.VTigerTest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

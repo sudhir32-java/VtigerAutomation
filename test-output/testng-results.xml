@@ -5,47 +5,47 @@
       <![CDATA[Entered on VtigerPage]]>
     </line>
     <line>
-      <![CDATA[Correct Last name]]>
+      <![CDATA[Correct WebPage]]>
     </line>
     <line>
-      <![CDATA[correct start date]]>
+      <![CDATA[org name matched]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-07T18:52:42 IST" name="Default suite" finished-at="2025-03-07T18:52:57 IST" duration-ms="15309">
+  <suite started-at="2025-03-16T13:07:24 IST" name="Default suite" finished-at="2025-03-16T13:07:45 IST" duration-ms="21498">
     <groups>
     </groups>
-    <test started-at="2025-03-07T18:52:42 IST" name="Default test" finished-at="2025-03-07T18:52:57 IST" duration-ms="15309">
-      <class name="com.crm.testCases.VtigerTest2">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.crm.testCases.VtigerTest2@38afe297]" started-at="2025-03-07T18:52:42 IST" name="preCondition" finished-at="2025-03-07T18:52:44 IST" duration-ms="2224" status="PASS">
+    <test started-at="2025-03-16T13:07:24 IST" name="Default test" finished-at="2025-03-16T13:07:45 IST" duration-ms="21498">
+      <class name="com.crm.testCases.VTigerTest3">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.crm.testCases.VTigerTest3@37ceb1df]" started-at="2025-03-16T13:07:24 IST" name="preCondition" finished-at="2025-03-16T13:07:27 IST" duration-ms="2754" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entered on VtigerPage]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.testCases.VtigerTest2@38afe297]" started-at="2025-03-07T18:52:44 IST" name="login" finished-at="2025-03-07T18:52:46 IST" duration-ms="1551" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.testCases.VTigerTest3@37ceb1df]" started-at="2025-03-16T13:07:27 IST" name="login" finished-at="2025-03-16T13:07:30 IST" duration-ms="3494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="tc001()[pri:0, instance:com.crm.testCases.VtigerTest2@38afe297]" started-at="2025-03-07T18:52:46 IST" name="tc001" finished-at="2025-03-07T18:52:56 IST" duration-ms="10381" status="PASS">
+        <test-method signature="tc001()[pri:0, instance:com.crm.testCases.VTigerTest3@37ceb1df]" started-at="2025-03-16T13:07:30 IST" name="tc001" finished-at="2025-03-16T13:07:43 IST" duration-ms="13160" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Correct Last name]]>
+              <![CDATA[Correct WebPage]]>
             </line>
             <line>
-              <![CDATA[correct start date]]>
+              <![CDATA[org name matched]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc001 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.testCases.VtigerTest2@38afe297]" started-at="2025-03-07T18:52:56 IST" name="logout" finished-at="2025-03-07T18:52:57 IST" duration-ms="920" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.testCases.VTigerTest3@37ceb1df]" started-at="2025-03-16T13:07:43 IST" name="logout" finished-at="2025-03-16T13:07:45 IST" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.testCases.VtigerTest2@38afe297]" started-at="2025-03-07T18:52:57 IST" name="postCondition" finished-at="2025-03-07T18:52:57 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.crm.testCases.VTigerTest3@37ceb1df]" started-at="2025-03-16T13:07:45 IST" name="postCondition" finished-at="2025-03-16T13:07:45 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- com.crm.testCases.VtigerTest2 -->
+      </class> <!-- com.crm.testCases.VTigerTest3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

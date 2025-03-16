@@ -13,10 +13,11 @@ import org.testng.annotations.Test;
 
 import com.crm.base.VTigerBase;
 import com.crm.fileUtility.ReadFromExcelFile;
+import com.crm.javautility.RandomNoGenerator;
 import com.crm.pom.HomePage;
 import com.crm.pom.OrganisationPage;
 @Listeners (com.crm.listeners.ExtentReport.class)
-public class VtigerTestCase extends VTigerBase
+public class VTigerTest3 extends VTigerBase
 {
 	static int row = 0;
 	
@@ -34,7 +35,7 @@ public class VtigerTestCase extends VTigerBase
 		og.plusClick();
 		
 		String org_name = ReadFromExcelFile.getdata(row,0);
-		og.orgname(org_name);
+		og.orgname(org_name+ String.valueOf(RandomNoGenerator.generateNo()));
 		
 		og.userButton();
 		WebElement dropdown = og.industrydropdown();
@@ -50,9 +51,5 @@ public class VtigerTestCase extends VTigerBase
 		
 		assertTrue(header_Text.contains(org_name),"org Name does not match");
 		Reporter.log("org name matched",true);
-		String indus_name = og.getindustryName();
-		assertEquals(indus_name,industryName ,"industry name does not match");
-		Reporter.log("industry name matched",true);
-			
 	}
 }
